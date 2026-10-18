@@ -42,3 +42,10 @@ def merge_sort(arr,left,right):
 arr=[8,1,7,5,2]
 merge_sort(arr,0,len(arr)-1)
 print(arr)
+
+# Time Complexity:
+
+# Best Case: O(n log n), When the array is already sorted or nearly sorted.
+# Average Case: O(n log n), When the array is randomly ordered.
+# Worst Case: O(n log n), When the array is sorted in reverse order.
+# Auxiliary Space: O(n), Additional space is required for the temporary array used during merging.
